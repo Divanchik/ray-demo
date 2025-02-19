@@ -14,7 +14,7 @@ class Program
     private static readonly int rayCount = 64;
     private static readonly float fovRad = (float)Math.PI/2;
     private static Player player = new();
-    private static Wall[] walls;
+    private static Wall[] walls =  new Wall[5];
 
     public static void Main()
     {
